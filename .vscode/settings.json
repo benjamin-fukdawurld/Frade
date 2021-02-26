@@ -1,0 +1,5 @@
+{
+    "editor.formatOnPaste": true,
+    "html.format.endWithNewline": true,
+    "clang-format.language.javascript.enable": false
+}
