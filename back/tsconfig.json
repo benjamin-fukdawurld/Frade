@@ -1,0 +1,26 @@
+{
+  "compilerOptions": {
+    /* Visit https://aka.ms/tsconfig.json to read more about this file */
+
+    /* Language and Environment */
+    "target": "esnext" /* Set the JavaScript language version for emitted JavaScript and include compatible library declarations. */,
+    "module": "commonjs" /* Specify what module code is generated. */,
+    "rootDir": "./src" /* Specify the root folder within your source files. */,
+    "declaration": true,
+    "sourceMap": true,
+    "outDir": "./dist",
+    "strict": true,
+    "noImplicitAny": true,
+    "strictNullChecks": true,
+    "alwaysStrict": true,
+    "noFallthroughCasesInSwitch": true,
+    "types": ["node", "jest"],
+    "typeRoots": ["./src/types", "./types", "./node_modules/@types"],
+    "esModuleInterop": true,
+    "forceConsistentCasingInFileNames": true,
+    "skipLibCheck": true /* Skip type checking all .d.ts files. */,
+    "inlineSources": true
+  },
+  "exclude": ["templates/**/*", "dist/**/*", "jest.config.ts", "node_modules"],
+  "include": ["./src/**/*.tsx", "./src/**/*.ts"]
+}
